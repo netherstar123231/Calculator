@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: azure;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-self: center;
+}
+.display{
+    display: flex;
+    height: 100px;
+    border: 3px solid black;
+    align-items: end;
+    justify-content: end;
+    font-size: 90px;
+    font-weight: bold;
+    background-color: ghostwhite;
+
+}
+.container{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 500px;
+    flex: auto;
+    border: 5px solid black;
+}
+
+.column{
+    display: flex;
+    flex: auto;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 75px;
+    font-size: large;
+    font-weight: bold;
+}
+.zero{
+    flex: 2 1 150px;
+}
+
+.number,.decimal{
+    background-color: aqua;
+}
+
+.number:active,.decimal:active {
+    background-color: aquamarine;
+}
+
+.operator,.equal{
+    background-color: peachpuff;
+}
+.operator:focus{
+    background-color: rgba(255, 218, 185, 0.562);
+}
+
+
+.clear,.sign,.mod{
+    background-color: rgb(250, 127, 4);
+}
+
+.clear:active,.sign:active{
+    background-color: rgb(253, 147, 42);
+
+}
